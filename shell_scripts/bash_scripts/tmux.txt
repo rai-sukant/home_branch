@@ -1,0 +1,36 @@
+panes
+• create a new vertical pane: ctrl+b %
+• switch to the left/right pane: ctrl+b [🠔|➞]
+• change vertical/horizontal size (respectively): ctrl+b (and at the same time) [🠔|➞] | [🠕|🠓]
+• create a new horizontal pane: ctrl+b "
+• close current pane: exit
+
+- windows
+• windows are like a new terminal window bash where inside it new panes can be created.
+
+• create a new window: ctrl+b c
+• list windows: ctrl+b w
+• move to the next window: ctrl+b n
+• move to the previous window: ctrl+b p
+• move to a certain window: ctrl+b [index]
+• rename window: ctrl+b ,
+
+- sessions
+• sessions are preserved until the system reboots.
+
+• detach a session: ctrl+b d
+
+• outside tmux:
+	◦ view sessions: tmux ls
+	◦ reattach to a session: tmux attach -t [session_name]
+	◦ rename a session: tmux rename-session -t [session_name] [new_session_name]
+	◦ create a new session: tmux new -s new_session
+	◦ kill a session: tmux kill-session -t [session_name]
+
+- kill tmux server: tmux kill-server
+
+- restore tmux session
+• install tpm: https://github.com/tmux-plugins/tpm
+⁦• install tmux-resurrect plugin: https://github.com/tmux-plugins/tmux-resurrect
+• save a session: from within the session ctrl+b ctrl+s
+• restore a session: (like after rebooting the computer) ctrl+b ctrl+s

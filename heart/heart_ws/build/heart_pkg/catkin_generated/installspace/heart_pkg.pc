@@ -1,0 +1,8 @@
+prefix=/home/sukant/home_branch/heart/heart_ws/install
+
+Name: heart_pkg
+Description: Description of heart_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

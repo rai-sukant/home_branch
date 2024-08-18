@@ -1,0 +1,2 @@
+heart_pkg
+-DCATKIN_DEVEL_PREFIX=/home/sukant/home_branch/heart/heart_ws/devel -DCMAKE_INSTALL_PREFIX=/home/sukant/home_branch/heart/heart_ws/install -G Unix Makefiles
